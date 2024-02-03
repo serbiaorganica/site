@@ -1,0 +1,1957 @@
+<!DOCTYPE html><html lang="sr-RS" class="no-js"><head> 
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<title>Literatura – Serbia Organica</title>
+<link rel="alternate" hreflang="sr" href="https://serbiaorganica.site/o-nama/literatura/">
+<link rel="alternate" hreflang="en" href="https://serbiaorganica.site/en/about-us/our-library/">
+<script type="text/javascript">/*<![CDATA[ */ var html = document.getElementsByTagName("html")[0]; html.className = html.className.replace("no-js", "js"); window.onerror=function(e,f){var body = document.getElementsByTagName("body")[0]; body.className = body.className.replace("rt-loading", ""); var e_file = document.createElement("a");e_file.href = f;console.log( e );console.log( e_file.pathname );}/* ]]>*/</script>
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="Serbia Organica » dovod" href="https://serbiaorganica.site/feed/">
+<link rel="alternate" type="application/rss+xml" title="Serbia Organica » dovod komentara" href="https://serbiaorganica.site/comments/feed/">
+<!-- This site uses the Google Analytics by ExactMetrics plugin v7.14.2 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+<script src="//www.googletagmanager.com/gtag/js?id=UA-135108787-1" data-cfasync="false" data-wpfc-render="false" type="text/javascript" async=""></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+var em_version = '7.14.2';
+var em_track_user = true;
+var em_no_track_reason = '';
+var disableStrs = [
+'ga-disable-UA-135108787-1',
+];
+/* Function to detect opted out users */
+function __gtagTrackerIsOptedOut() {
+for (var index = 0; index < disableStrs.length; index++) {
+if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+return true;
+}
+}
+return false;
+}
+/* Disable tracking if the opt-out cookie exists. */
+if (__gtagTrackerIsOptedOut()) {
+for (var index = 0; index < disableStrs.length; index++) {
+window[disableStrs[index]] = true;
+}
+}
+/* Opt-out function */
+function __gtagTrackerOptout() {
+for (var index = 0; index < disableStrs.length; index++) {
+document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+window[disableStrs[index]] = true;
+}
+}
+if ('undefined' === typeof gaOptout) {
+function gaOptout() {
+__gtagTrackerOptout();
+}
+}
+window.dataLayer = window.dataLayer || [];
+window.ExactMetricsDualTracker = {
+helpers: {},
+trackers: {},
+};
+if (em_track_user) {
+function __gtagDataLayer() {
+dataLayer.push(arguments);
+}
+function __gtagTracker(type, name, parameters) {
+if (!parameters) {
+parameters = {};
+}
+if (parameters.send_to) {
+__gtagDataLayer.apply(null, arguments);
+return;
+}
+if (type === 'event') {
+parameters.send_to = exactmetrics_frontend.ua;
+__gtagDataLayer(type, name, parameters);
+} else {
+__gtagDataLayer.apply(null, arguments);
+}
+}
+__gtagTracker('js', new Date());
+__gtagTracker('set', {
+'developer_id.dNDMyYj': true,
+});
+__gtagTracker('config', 'UA-135108787-1', {"forceSSL":"true"} );
+window.gtag = __gtagTracker;										(function () {
+/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+/* ga and __gaTracker compatibility shim. */
+var noopfn = function () {
+return null;
+};
+var newtracker = function () {
+return new Tracker();
+};
+var Tracker = function () {
+return null;
+};
+var p = Tracker.prototype;
+p.get = noopfn;
+p.set = noopfn;
+p.send = function () {
+var args = Array.prototype.slice.call(arguments);
+args.unshift('send');
+__gaTracker.apply(null, args);
+};
+var __gaTracker = function () {
+var len = arguments.length;
+if (len === 0) {
+return;
+}
+var f = arguments[len - 1];
+if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+if ('send' === arguments[0]) {
+var hitConverted, hitObject = false, action;
+if ('event' === arguments[1]) {
+if ('undefined' !== typeof arguments[3]) {
+hitObject = {
+'eventAction': arguments[3],
+'eventCategory': arguments[2],
+'eventLabel': arguments[4],
+'value': arguments[5] ? arguments[5] : 1,
+}
+}
+}
+if ('pageview' === arguments[1]) {
+if ('undefined' !== typeof arguments[2]) {
+hitObject = {
+'eventAction': 'page_view',
+'page_path': arguments[2],
+}
+}
+}
+if (typeof arguments[2] === 'object') {
+hitObject = arguments[2];
+}
+if (typeof arguments[5] === 'object') {
+Object.assign(hitObject, arguments[5]);
+}
+if ('undefined' !== typeof arguments[1].hitType) {
+hitObject = arguments[1];
+if ('pageview' === hitObject.hitType) {
+hitObject.eventAction = 'page_view';
+}
+}
+if (hitObject) {
+action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+hitConverted = mapArgs(hitObject);
+__gtagTracker('event', action, hitConverted);
+}
+}
+return;
+}
+function mapArgs(args) {
+var arg, hit = {};
+var gaMap = {
+'eventCategory': 'event_category',
+'eventAction': 'event_action',
+'eventLabel': 'event_label',
+'eventValue': 'event_value',
+'nonInteraction': 'non_interaction',
+'timingCategory': 'event_category',
+'timingVar': 'name',
+'timingValue': 'value',
+'timingLabel': 'event_label',
+'page': 'page_path',
+'location': 'page_location',
+'title': 'page_title',
+};
+for (arg in args) {
+if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+hit[gaMap[arg]] = args[arg];
+} else {
+hit[arg] = args[arg];
+}
+}
+return hit;
+}
+try {
+f.hitCallback();
+} catch (ex) {
+}
+};
+__gaTracker.create = newtracker;
+__gaTracker.getByName = newtracker;
+__gaTracker.getAll = function () {
+return [];
+};
+__gaTracker.remove = noopfn;
+__gaTracker.loaded = true;
+window['__gaTracker'] = __gaTracker;
+})();
+} else {
+console.log("");
+(function () {
+function __gtagTracker() {
+return null;
+}
+window['__gtagTracker'] = __gtagTracker;
+window['gtag'] = __gtagTracker;
+})();
+}
+</script>
+<!-- / Google Analytics by ExactMetrics -->
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/serbiaorganica.site\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.17"}};
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 .07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+</style>
+<!-- <link rel='stylesheet' id='naturalife-style-all-css'  href='https://serbiaorganica.site/wp-content/themes/naturalife/css/app-min.css?ver=1.3.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='fontello-css'  href='https://serbiaorganica.site/wp-content/themes/naturalife/css/fontello/css/fontello.css?ver=1.3.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='naturalife-theme-style-css'  href='https://serbiaorganica.site/wp-content/themes/naturalife/style.css?ver=5.1.17' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='naturalife-dynamic-css'  href='https://serbiaorganica.site/wp-content/uploads/naturalife/dynamic-style.css?ver=220530203903' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-block-library-css'  href='https://serbiaorganica.site/wp-includes/css/dist/block-library/style.min.css?ver=5.1.17' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='contact-form-7-css'  href='https://serbiaorganica.site/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpml-menu-item-0-css'  href='//serbiaorganica.site/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.css?ver=1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='elementor-icons-css'  href='https://serbiaorganica.site/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.9.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='elementor-animations-css'  href='https://serbiaorganica.site/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.0.13' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://serbiaorganica.site/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.0.13' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='elementor-frontend-css'  href='https://serbiaorganica.site/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.0.13' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="css/dfr9n.css" media="all">
+<link rel="stylesheet" id="elementor-post-11494-css" href="css/post-11494.css" type="text/css" media="all">
+<!-- <link rel='stylesheet' id='font-awesome-css'  href='https://serbiaorganica.site/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="css/dfr9l.css" media="all">
+<link rel="stylesheet" id="elementor-post-9006-css" href="css/post-9006.css" type="text/css" media="all">
+<link rel="stylesheet" id="naturalife-google-fonts-css" href="//fonts.googleapis.com/css?family=Roboto+Slab%3A700%7CRoboto%3Aregular%2C500%2C400i%2C700%7CCaveat%3A700&amp;subset=latin&amp;ver=1.0.0" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.1.17" type="text/css" media="all">
+<script src="js/dfr9l.js" type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://serbiaorganica.site/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js?ver=7.14.2'></script> -->
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id="exactmetrics-frontend-script-js-extra">/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/serbiaorganica.site","hash_tracking":"false","ua":"UA-135108787-1","v4_id":""};/* ]]> */
+</script>
+<script src="js/dfr9l_1.js" type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://serbiaorganica.site/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script> -->
+<!-- <script type='text/javascript' src='https://serbiaorganica.site/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script> -->
+<link rel="https://api.w.org/" href="https://serbiaorganica.site/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://serbiaorganica.site/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://serbiaorganica.site/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.1.17">
+<link rel="canonical" href="https://serbiaorganica.site/o-nama/literatura/">
+<link rel="shortlink" href="https://serbiaorganica.site/?p=9006">
+<link rel="alternate" type="application/json+oembed" href="https://serbiaorganica.site/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fserbiaorganica.site%2Fo-nama%2Fliteratura%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://serbiaorganica.site/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fserbiaorganica.site%2Fo-nama%2Fliteratura%2F&amp;format=xml">
+<meta name="generator" content="WPML ver:4.2.1 stt:1,50;">
+<!-- GA Google Analytics @ https://m0n.co/ga -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-135108787-1', 'auto');
+ga('set', 'forceSSL', true);
+ga('send', 'pageview');
+</script>
+<meta name="generator" content="Powered by NaturaLife Health &amp; Organic WordPress Theme TV:1.3.1 PV:1.3">
+<link rel="icon" href="images/cropped-srb-32x32.jpg" sizes="32x32">
+<link rel="icon" href="images/cropped-srb-192x192.jpg" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="images/cropped-srb-180x180.jpg">
+<meta name="msapplication-TileImage" content="https://serbiaorganica.site/wp-content/uploads/2019/02/cropped-srb-270x270.jpg">
+<style type="text/css" id="wp-custom-css">
+.odbi{
+margin-bottom:24px;
+}
+.sidebar .widget:not(:last-child) {
+margin-bottom: 0px; 
+}
+.eael-grid-post-holder-inner .eael-entry-medianone{
+height:187px !important;
+}
+table.tabela thead tr{
+background:#83bd38;
+font-weight:bold;
+color:white;
+}
+table.tabela tbody tr{
+border-bottom:1px solid #DDD;
+}
+table.tabela td{
+padding:6px ;
+}
+table.tabela{
+margin:10px 0;
+}
+table.tabela2 tr td:first-child{
+color:white !important;
+}
+span.user,.blog-loop span.date:before{
+display:none !important
+}
+.page-id-9235 .eael-entry-wrapper {
+min-height: 230px !important;
+}
+.page-id-9235 .eael-entry-medianone {
+min-height: 202px;
+}
+a.rt-image-box-link + div.rt-image-box-content h6{
+color: #84BE38;
+}
+.rt-language-name,.header-row .naturalife-language-switcher span{
+text-transform:capitalize !important;
+}
+.naturalife-language-switcher ul li ul li:last-child{
+display:none !important
+}
+.page-id-9876 .eael-entry-wrapper{
+min-height:295px;
+}
+.flipbook-menu-btn{
+font-size:30px !important;
+}
+.naturalife-language-switcher.widget{
+display:none
+}
+.button_.big>span{
+padding: 0.5em;
+}
+.button_.big:first-child{
+background:#EC5926  !important;
+}		</style>
+</head>
+<body class="page-template-default page page-id-9006 page-child parent-pageid-220 rt-loading rt-loading-active rt-transition  sticky-header sticky-header-style-1 header-style-1 header-sidepanel header-sidepanel-mobile header-search-button header-wpml-button naturalife-default-header-width naturalife-default-sticky-header-width naturalife-default-footer-width has-sub-header naturalife-fixed-footer sticky-mobile-header elementor-default elementor-kit-11494 elementor-page elementor-page-9006"> 
+<!-- loader -->
+<div id="loader-wrapper"> 
+<img width="200" height="152" src="images/logo-200x152.png" class="loading-logo" alt="" srcset="images/logo-200x152.png 200w, images/logo-300x229.png 300w, images/logo-393x300.png 393w, images/logo-290x221.png 290w, images/logo.png 400w, images/logo.png 1.3x" sizes="(max-width: 200px) 100vw, 200px">		</div>
+<!-- / #loader -->
+<!-- background wrapper -->
+<div id="container">
+<div class="naturalife-top-bar">
+<div class="top-bar-inner d-flex align-items-center">
+<div class="top-bar-left d-flex align-items-center">
+<div id="social_media_icons-5" class="topbar-widget widget widget_social_media_icons"><div class="naturalife-social-media-widget">
+<ul class="social_media inline-list"><li class="facebook"><a class="ui-icon-facebook" href="#" title="Facebook"><span>Facebook</span></a></li><li class="instagram"><a class="ui-icon-instagram" href="#" title="Instagram"><span>Instagram</span></a></li><li class="twitter"><a class="ui-icon-twitter" href="#" title="Twitter"><span>Twitter</span></a></li></ul></div>
+</div>		</div>
+<div class="top-bar-right d-flex align-items-center">
+<div id="rt_button-1" class="topbar-widget widget widget_rt_button"><a class="icon icon-36_phone" href="tel:%20+381658556868" target="_self">Pozovite nas: +381 (0) 800 812 147</a></div><div id="rt_button-5" class="topbar-widget widget widget_rt_button"><a class="icon icon-mail" href="mailto:office@serbiaorganica.site" target="_self">office@serbiaorganica.site</a></div>		</div>
+</div>
+</div>
+<header class="top-header" data-color="dark">
+<div class="main-header-holder naturalife-dark-header dynamic-skin">
+<div class="header-elements">
+<div class="header-row first">
+<div class="header-col left">
+<div id="logo" class="site-logo"> 
+<a href="https://serbiaorganica.site" title="Serbia Organica"><img width="400" height="305" src="images/logo.png" alt="Serbia Organica" class="dark-logo logo-image" srcset="images/logo.png 1.3x"><img width="400" height="305" src="images/logo.png" alt="Serbia Organica" class="light-logo logo-image"></a> 		
+</div><!-- / end #logo -->
+<nav class="main-menu-wrapper"><ul class="main-menu"><li id="menu-item-6980" data-depth="0" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children"><a href="https://serbiaorganica.site/o-nama/"><span>O nama</span></a> 
+<ul class="sub-menu">
+<li id="menu-item-7208" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/o-nama/nasa-izdanja/">Naša izdanja</a> </li>
+</ul>
+</li>
+<li id="menu-item-6640" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Organska proizvodnja</span></a> 
+<ul class="sub-menu">
+<li id="menu-item-7017" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sta-je-organska-proizvodnja-i-koji-su-njeni-principi/">Šta je organska proizvodnja i koji su njeni principi?</a> </li>
+<li id="menu-item-7049" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/organska-proizvodnja-u-srbiji/">Organska proizvodnja u Srbiji</a> </li>
+<li id="menu-item-6917" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/organska-poljoprivreda/">Organska poljoprivreda</a> 
+<ul class="sub-menu">
+<li id="menu-item-6918" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/biljna/">Biljna proizvodnja</a> 
+<ul class="sub-menu">
+<li id="menu-item-6921" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/reproduktivni-materijal/">Reproduktivni materijal</a> </li>
+<li id="menu-item-6922" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/zastita-bilja/">Zaštita bilja</a> </li>
+<li id="menu-item-6923" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/ishrana-bilja-i-oplemenjvanje-zemlista-djubrenje/">Ishrana bilja i oplemenjvanje zemlišta/đubrenje</a> </li>
+<li id="menu-item-6924" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/obrada-zemljista/">Obrada zemljišta</a> </li>
+<li id="menu-item-6925" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/mehanizacija/">Mehanizacija</a> </li>
+</ul>
+</li>
+<li id="menu-item-6919" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/stocarska/">Stočarska proizvodnja</a> </li>
+<li id="menu-item-6920" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sakupljanje-samoniklog-lekovitog-bilja-i-sumskih-plodova/">Sakupljanje samoniklog lekovitog bilja i šumskih plodova</a> </li>
+</ul>
+</li>
+<li id="menu-item-6948" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/prerada-organskih-proizvoda/">Prerada organskih proizvoda</a> </li>
+</ul>
+</li>
+<li id="menu-item-6643" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Propisi</span></a> 
+<ul class="sub-menu">
+<li id="menu-item-6926" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/domaci-propisi/">Domaći propisi</a> </li>
+<li id="menu-item-6927" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/strani-propisi/">Strani propisi</a> </li>
+<li id="menu-item-6928" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/nadlezne-institucije/">Nadležne institucije</a> </li>
+</ul>
+</li>
+<li id="menu-item-6644" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Sertifikacija</span></a> 
+<ul class="sub-menu">
+<li id="menu-item-6929" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/sertifikacija-organske-proizvodnje/">Sertifikacija organske proizvodnje</a> 
+<ul class="sub-menu">
+<li id="menu-item-6930" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sertifikacija-organske-proizvodnje/sta-je-sertifikat/">Šta je sertifikat?</a> </li>
+<li id="menu-item-6931" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sertifikacija-organske-proizvodnje/zasto-sertifikat/">Zašto sertifikat</a> </li>
+</ul>
+</li>
+<li id="menu-item-6932" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/kako-do-sertifikata-u-organskoj-proizvodnji/">Kako do sertifikata u organskoj proizvodnji</a> </li>
+<li id="menu-item-6933" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/ko-sprovodi-kontrolu-i-setifikaciju/">Ko sprovodi kontrolu i setifikaciju</a> </li>
+</ul>
+</li>
+<li id="menu-item-6645" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Potrošači</span></a> 
+<ul class="sub-menu">
+<li id="menu-item-6934" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sta-je-organski-proizvod/">Šta je organski proizvod</a> </li>
+<li id="menu-item-6935" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/prednost-organskih-proizvoda/">Prednost organskih proizvoda</a> </li>
+<li id="menu-item-6936" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/kako-prepoznati-organski-proizvod/">Kako prepoznati organski proizvod</a> </li>
+<li id="menu-item-6937" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/gde-se-mogu-kupiti-organski-proizvodi/">Gde se mogu kupiti organski proizvodi</a> </li>
+</ul>
+</li>
+<li id="menu-item-6646" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Proizvođači</span></a> 
+<ul class="sub-menu">
+<li id="menu-item-6938" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/kako-postati-organski-proizvodjac-koraci/">Kako postati organski proizvođač- koraci</a> </li>
+<li id="menu-item-8734" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/obrasci/">Obrasci</a> </li>
+<li id="menu-item-6939" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/podsticajna-sredstva/">Podsticajna sredstva</a> 
+<ul class="sub-menu">
+<li id="menu-item-7492" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/podsticajna-sredstva/aktuelni-podsticaji/">Aktuelni podsticaji</a> </li>
+</ul>
+</li>
+<li id="menu-item-6940" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/trziste/">Tržište</a> 
+<ul class="sub-menu">
+<li id="menu-item-6941" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/domace/">Domaće tržište</a> </li>
+<li id="menu-item-6942" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/strano/">Strano tržište</a> </li>
+</ul>
+</li>
+<li id="menu-item-6943" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/promet-organskih-proizvoda-u-srbiji/">Promet organskih proizvoda u Srbiji</a> </li>
+<li id="menu-item-6944" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/inovacije-u-proizvodnji/">Inovacije u proizvodnji</a> </li>
+</ul>
+</li>
+<li id="menu-item-wpml-ls-21-sr" data-depth="0" class="menu-item wpml-ls-slot-21 wpml-ls-item wpml-ls-item-sr wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children"><a title="srpski" href="https://serbiaorganica.site/o-nama/literatura/"><span><img class="wpml-ls-flag" src="images/sr_1.png" alt="sr" title="srpski"><span class="wpml-ls-display">srpski</span></span></a> 
+<ul class="sub-menu">
+<li id="menu-item-wpml-ls-21-en" data-depth="1" class="menu-item wpml-ls-slot-21 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item"><a title="engleski" href="https://serbiaorganica.site/en/about-us/our-library/"><img class="wpml-ls-flag" src="images/en_1.png" alt="en" title="English"><span class="wpml-ls-display">engleski</span></a> </li>
+</ul>
+</li>
+</ul></nav> 
+</div>
+<div class="header-col right">
+<div class="naturalife-language-switcher widget">
+<ul>
+<li>
+<a href="#" title="Switch the language">
+<span class="rt-flag" style="background-image:url('images/sr.png')"></span>
+<span class="rt-language-name">srpski</span>
+</a>
+<ul>
+<li>
+<a href="https://serbiaorganica.site/o-nama/literatura/" title="srpski"><span class="rt-flag" style="background-image:url(images/sr.png)"></span><span lang="sr_RS">srpski</span></a>
+</li>
+<li>
+<a href="https://serbiaorganica.site/en/about-us/our-library/" title="English"><span class="rt-flag" style="background-image:url(images/en.png)"></span><span lang="en_US">English</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-tools">
+<ul>
+<li class="search-button tools-icon"><a href="#" class="naturalife-search-button" title="Pretraži"><span class="ui-icon-top-search"></span></a></li>
+<li class="naturalife-sidepanel-button-holder"><a href="#" class="naturalife-sidepanel-button"><span></span><span></span><span></span></a></li>
+</ul>
+</div><!-- / end .nav-buttons -->
+</div>
+</div><!-- / .header-row.first -->
+</div><!-- / .header-elements -->
+</div><!-- / .main-header-header -->
+<div class="sticky-header-holder">
+<div class="header-elements">
+<div class="header-row naturalife-dark-header">
+<div class="header-col left">
+<div id="sticky-logo" class="site-logo">
+<a href="https://serbiaorganica.site" title="Serbia Organica"><img width="400" height="305" src="images/logo.png" alt="Serbia Organica" class="sticky-logo" srcset="images/logo.png 1.3x"></a> 		
+</div><!-- / end #sticky-logo -->
+<nav class="main-menu-wrapper"><ul class="main-menu"><li id="sticky-menu-item-6980" data-depth="0" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children"><a href="https://serbiaorganica.site/o-nama/"><span>O nama</span></a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-7208" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/o-nama/nasa-izdanja/">Naša izdanja</a> </li>
+</ul>
+</li>
+<li id="sticky-menu-item-6640" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Organska proizvodnja</span></a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-7017" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sta-je-organska-proizvodnja-i-koji-su-njeni-principi/">Šta je organska proizvodnja i koji su njeni principi?</a> </li>
+<li id="sticky-menu-item-7049" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/organska-proizvodnja-u-srbiji/">Organska proizvodnja u Srbiji</a> </li>
+<li id="sticky-menu-item-6917" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/organska-poljoprivreda/">Organska poljoprivreda</a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-6918" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/biljna/">Biljna proizvodnja</a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-6921" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/reproduktivni-materijal/">Reproduktivni materijal</a> </li>
+<li id="sticky-menu-item-6922" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/zastita-bilja/">Zaštita bilja</a> </li>
+<li id="sticky-menu-item-6923" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/ishrana-bilja-i-oplemenjvanje-zemlista-djubrenje/">Ishrana bilja i oplemenjvanje zemlišta/đubrenje</a> </li>
+<li id="sticky-menu-item-6924" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/obrada-zemljista/">Obrada zemljišta</a> </li>
+<li id="sticky-menu-item-6925" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/mehanizacija/">Mehanizacija</a> </li>
+</ul>
+</li>
+<li id="sticky-menu-item-6919" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/stocarska/">Stočarska proizvodnja</a> </li>
+<li id="sticky-menu-item-6920" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sakupljanje-samoniklog-lekovitog-bilja-i-sumskih-plodova/">Sakupljanje samoniklog lekovitog bilja i šumskih plodova</a> </li>
+</ul>
+</li>
+<li id="sticky-menu-item-6948" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/prerada-organskih-proizvoda/">Prerada organskih proizvoda</a> </li>
+</ul>
+</li>
+<li id="sticky-menu-item-6643" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Propisi</span></a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-6926" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/domaci-propisi/">Domaći propisi</a> </li>
+<li id="sticky-menu-item-6927" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/strani-propisi/">Strani propisi</a> </li>
+<li id="sticky-menu-item-6928" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/nadlezne-institucije/">Nadležne institucije</a> </li>
+</ul>
+</li>
+<li id="sticky-menu-item-6644" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Sertifikacija</span></a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-6929" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/sertifikacija-organske-proizvodnje/">Sertifikacija organske proizvodnje</a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-6930" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sertifikacija-organske-proizvodnje/sta-je-sertifikat/">Šta je sertifikat?</a> </li>
+<li id="sticky-menu-item-6931" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sertifikacija-organske-proizvodnje/zasto-sertifikat/">Zašto sertifikat</a> </li>
+</ul>
+</li>
+<li id="sticky-menu-item-6932" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/kako-do-sertifikata-u-organskoj-proizvodnji/">Kako do sertifikata u organskoj proizvodnji</a> </li>
+<li id="sticky-menu-item-6933" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/ko-sprovodi-kontrolu-i-setifikaciju/">Ko sprovodi kontrolu i setifikaciju</a> </li>
+</ul>
+</li>
+<li id="sticky-menu-item-6645" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Potrošači</span></a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-6934" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sta-je-organski-proizvod/">Šta je organski proizvod</a> </li>
+<li id="sticky-menu-item-6935" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/prednost-organskih-proizvoda/">Prednost organskih proizvoda</a> </li>
+<li id="sticky-menu-item-6936" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/kako-prepoznati-organski-proizvod/">Kako prepoznati organski proizvod</a> </li>
+<li id="sticky-menu-item-6937" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/gde-se-mogu-kupiti-organski-proizvodi/">Gde se mogu kupiti organski proizvodi</a> </li>
+</ul>
+</li>
+<li id="sticky-menu-item-6646" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Proizvođači</span></a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-6938" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/kako-postati-organski-proizvodjac-koraci/">Kako postati organski proizvođač- koraci</a> </li>
+<li id="sticky-menu-item-8734" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/obrasci/">Obrasci</a> </li>
+<li id="sticky-menu-item-6939" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/podsticajna-sredstva/">Podsticajna sredstva</a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-7492" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/podsticajna-sredstva/aktuelni-podsticaji/">Aktuelni podsticaji</a> </li>
+</ul>
+</li>
+<li id="sticky-menu-item-6940" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/trziste/">Tržište</a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-6941" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/domace/">Domaće tržište</a> </li>
+<li id="sticky-menu-item-6942" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/strano/">Strano tržište</a> </li>
+</ul>
+</li>
+<li id="sticky-menu-item-6943" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/promet-organskih-proizvoda-u-srbiji/">Promet organskih proizvoda u Srbiji</a> </li>
+<li id="sticky-menu-item-6944" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/inovacije-u-proizvodnji/">Inovacije u proizvodnji</a> </li>
+</ul>
+</li>
+<li id="sticky-menu-item-wpml-ls-21-sr" data-depth="0" class="menu-item wpml-ls-slot-21 wpml-ls-item wpml-ls-item-sr wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children"><a title="srpski" href="https://serbiaorganica.site/o-nama/literatura/"><span><img class="wpml-ls-flag" src="images/sr_1.png" alt="sr" title="srpski"><span class="wpml-ls-display">srpski</span></span></a> 
+<ul class="sub-menu">
+<li id="sticky-menu-item-wpml-ls-21-en" data-depth="1" class="menu-item wpml-ls-slot-21 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item"><a title="engleski" href="https://serbiaorganica.site/en/about-us/our-library/"><img class="wpml-ls-flag" src="images/en_1.png" alt="en" title="English"><span class="wpml-ls-display">engleski</span></a> </li>
+</ul>
+</li>
+</ul></nav> 
+</div>
+<div class="header-col right">
+<div class="naturalife-language-switcher widget">
+<ul>
+<li>
+<a href="#" title="Switch the language">
+<span class="rt-flag" style="background-image:url('images/sr.png')"></span>
+<span class="rt-language-name">srpski</span>
+</a>
+<ul>
+<li>
+<a href="https://serbiaorganica.site/o-nama/literatura/" title="srpski"><span class="rt-flag" style="background-image:url(images/sr.png)"></span><span lang="sr_RS">srpski</span></a>
+</li>
+<li>
+<a href="https://serbiaorganica.site/en/about-us/our-library/" title="English"><span class="rt-flag" style="background-image:url(images/en.png)"></span><span lang="en_US">English</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-tools">
+<ul>
+<li class="search-button tools-icon"><a href="#" class="naturalife-search-button" title="Pretraži"><span class="ui-icon-top-search"></span></a></li>
+<li class="naturalife-sidepanel-button-holder"><a href="#" class="naturalife-sidepanel-button"><span></span><span></span><span></span></a></li>
+</ul>
+</div><!-- / end .nav-buttons -->
+</div>
+</div><!-- / .header-row.first --> 
+</div>
+</div><!-- / .sticky-header-header -->
+</header><header class="mobile-header">
+<div class="mobile-header-holder">
+<div class="header-elements">
+<div class="header-row naturalife-dark-header">
+<div class="header-col left">
+<div id="mobile-logo" class="mobile-logo-holder">
+<a href="https://serbiaorganica.site" title="Serbia Organica"><img width="400" height="305" src="images/logo.png" alt="Serbia Organica" class="mobile-logo" srcset="images/logo.png 1.3x"></a> 		
+</div><!-- / end #mobile-logo -->
+</div>
+<div class="header-col right">
+<div class="header-tools">
+<ul>
+<li class="search-button tools-icon"><a href="#" class="naturalife-search-button" title="Pretraži"><span class="ui-icon-top-search"></span></a></li>
+<li class="naturalife-sidepanel-button-holder"><a href="#" class="naturalife-sidepanel-button"><span></span><span></span><span></span></a></li>
+</ul>
+</div><!-- / end .nav-buttons -->
+</div>
+</div><!-- / .header-row -->
+</div>
+</div><!-- / .mobile-header-header -->
+</header>
+<!-- main contents -->
+<div id="main-content">
+<div class="content-row row sub-page-header fullwidth style-1" style="background-image: url(images/green-background.png);background-repeat: no-repeat;background-size: auto auto;background-attachment: scroll;background-position: right center;background-color: #84BE38;">
+<div class="content-row-wrapper default"><div class="col col-sm-12"><section class="page-title"><h1>Literatura</h1></section><div class="breadcrumb"><ol vocab="http://schema.org/" typeof="BreadcrumbList">
+<li property="itemListElement" typeof="ListItem">
+<a property="item" typeof="WebPage" class="ui-icon-home" href="https://serbiaorganica.site"><span property="name">Početna</span><meta property="position" content="1"></a> <span class="icon-angle-right"></span> </li>
+<li property="itemListElement" typeof="ListItem">
+<a property="item" typeof="WebPage" class="" href="https://serbiaorganica.site/o-nama/"><span property="name">O nama</span><meta property="position" content="2"></a> <span class="icon-angle-right"></span> </li>
+<li property="itemListElement" typeof="ListItem">
+<span property="name">Literatura</span><meta property="position" content="3"></li>
+</ol>
+</div></div></div>
+</div>
+<div data-elementor-type="wp-post" data-elementor-id="9006" class="elementor elementor-9006" data-elementor-settings="[]">
+<div class="elementor-inner">
+<div class="elementor-section-wrap">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-70da4de elementor-section-boxed elementor-section-height-default elementor-section-height-default default-style" data-id="70da4de" data-element_type="section" data-settings="{&quot;rt_color_sets&quot;:&quot;default-style&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-9af8bd5" data-id="9af8bd5" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-d484c57 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="d484c57" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2021/02/OPS-2020-online.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organska proizvodnja
+u Srbiji 2020</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="1750" height="2485" src="images/korica-2.jpg" class="img-responsive aligncenter" alt="Organska proizvodnja u Srbiji 2020" srcset="images/korica-2.jpg 1750w, images/korica-2-211x300.jpg 211w, images/korica-2-768x1091.jpg 768w, images/korica-2-721x1024.jpg 721w, images/korica-2-875x1242.jpg 875w, images/korica-2-1220x1732.jpg 1220w, images/korica-2-915x1299.jpg 915w, images/korica-2-600x852.jpg 600w, images/korica-2-290x412.jpg 290w" sizes="(max-width: 1750px) 100vw, 1750px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-4c628cd" data-id="4c628cd" data-element_type="column">
+<div class="elementor-column-wrap">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-78e08fe" data-id="78e08fe" data-element_type="column">
+<div class="elementor-column-wrap">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-5fe4f7f" data-id="5fe4f7f" data-element_type="column">
+<div class="elementor-column-wrap">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-d23af7b" data-id="d23af7b" data-element_type="column">
+<div class="elementor-column-wrap">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-37a6e21 elementor-section-boxed elementor-section-height-default elementor-section-height-default default-style" data-id="37a6e21" data-element_type="section" data-settings="{&quot;rt_color_sets&quot;:&quot;default-style&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-1d2cadf" data-id="1d2cadf" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-681d811 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="681d811" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2020/02/Ugrenovic-i-saradnici.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Oržavanje plodnosti zemljišta na organskom gazdinstvu modeliranjem plodoreda sa učešćem lucerke</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="1889" height="2776" src="images/Odrzavanje-plodnosti.jpg" class="img-responsive aligncenter" alt="" srcset="images/Odrzavanje-plodnosti.jpg 1889w, images/Odrzavanje-plodnosti-204x300.jpg 204w, images/Odrzavanje-plodnosti-768x1129.jpg 768w, images/Odrzavanje-plodnosti-697x1024.jpg 697w, images/Odrzavanje-plodnosti-944x1388.jpg 944w, images/Odrzavanje-plodnosti-1220x1793.jpg 1220w, images/Odrzavanje-plodnosti-915x1345.jpg 915w, images/Odrzavanje-plodnosti-600x882.jpg 600w, images/Odrzavanje-plodnosti-290x426.jpg 290w" sizes="(max-width: 1889px) 100vw, 1889px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-cec9798" data-id="cec9798" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-d117047 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="d117047" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2020/06/Nacionalna-istraživačka-agenda-za-sektor-organske-proizvodnje.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Nacionalna istraživačka agenda za sektor organske proizvodnje</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="2498" height="3511" src="images/jpg.jpg" class="img-responsive aligncenter" alt="" srcset="images/jpg.jpg 2498w, images/jpg-213x300.jpg 213w, images/jpg-768x1079.jpg 768w, images/jpg-729x1024.jpg 729w, images/jpg-1249x1755.jpg 1249w, images/jpg-1220x1715.jpg 1220w, images/jpg-915x1286.jpg 915w, images/jpg-600x843.jpg 600w, images/jpg-290x408.jpg 290w" sizes="(max-width: 2498px) 100vw, 2498px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-8b2a44b" data-id="8b2a44b" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-7c97c7e rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="7c97c7e" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2020/07/Organic-farming-in-N.Macedonia-Bulgaria-Serbia-and-Croatia.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organic farming in N.Macedonia, Bulgaria, Serbia and Croatia</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="2480" height="3202" src="images/organic-farming_1.jpg" class="img-responsive aligncenter" alt="" srcset="images/organic-farming_1.jpg 2480w, images/organic-farming-232x300.jpg 232w, images/organic-farming-768x992.jpg 768w, images/organic-farming-793x1024.jpg 793w, images/organic-farming-1240x1601.jpg 1240w, images/organic-farming-1220x1575.jpg 1220w, images/organic-farming-915x1181.jpg 915w, images/organic-farming-600x775.jpg 600w, images/organic-farming-290x374.jpg 290w" sizes="(max-width: 2480px) 100vw, 2480px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-8c29259" data-id="8c29259" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-100d60e rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="100d60e" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2020/11/Tehničko-rešene-Konceptualni-model-procene-ukupne-degradacije-zemljišta-2019..pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Tehničko rešenje -  Konceptualni model procene ukupne degradacije zemljišta (2019)</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="1705" height="2504" src="images/Tehnicko-resenje.jpg" class="img-responsive aligncenter" alt="" srcset="images/Tehnicko-resenje.jpg 1705w, images/Tehnicko-resenje-204x300.jpg 204w, images/Tehnicko-resenje-768x1128.jpg 768w, images/Tehnicko-resenje-697x1024.jpg 697w, images/Tehnicko-resenje-852x1252.jpg 852w, images/Tehnicko-resenje-1220x1792.jpg 1220w, images/Tehnicko-resenje-915x1344.jpg 915w, images/Tehnicko-resenje-600x881.jpg 600w, images/Tehnicko-resenje-290x426.jpg 290w" sizes="(max-width: 1705px) 100vw, 1705px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-b364e56" data-id="b364e56" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-943f3d2 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="943f3d2" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2020/12/Organic-farming-handbook.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organic farming handbook</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="2473" height="3365" src="images/organic-farming.jpg" class="img-responsive aligncenter" alt="" srcset="images/organic-farming.jpg 2473w, images/organic-farming-220x300.jpg 220w, images/organic-farming-768x1045.jpg 768w, images/organic-farming-753x1024.jpg 753w, images/organic-farming-1236x1682.jpg 1236w, images/organic-farming-1220x1660.jpg 1220w, images/organic-farming-915x1245.jpg 915w, images/organic-farming-600x816.jpg 600w, images/organic-farming-290x395.jpg 290w" sizes="(max-width: 2473px) 100vw, 2473px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-9b8949d elementor-section-boxed elementor-section-height-default elementor-section-height-default default-style" data-id="9b8949d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;rt_color_sets&quot;:&quot;default-style&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-763d1f9" data-id="763d1f9" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-edba5e1 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="edba5e1" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/03/Tehnicko_resenje_Prostorno_razgranicenje_u-organskoj_biljnoj_proizvodnji_usevom_visegodisnjeg_moraca_2018.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Tehničko rešenje: Prostorno razgraničavanje u organskoj biljnoj proizvodnji usevom višegodišnjeg morača</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="232" height="342" src="images/download.png" class="img-responsive aligncenter" alt="" srcset="images/download.png 232w, images/download-204x300.png 204w, images/download-116x171.png 116w" sizes="(max-width: 232px) 100vw, 232px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-8e5660b" data-id="8e5660b" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-28b8877 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="28b8877" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2020/03/Ugrenović-V.-2018.-Organska-proizvodnja-žita.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organska proizvodnja žita</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="2480" height="3505" src="images/1..jpg" class="img-responsive aligncenter" alt="" srcset="images/1..jpg 2480w, images/1.-212x300.jpg 212w, images/1.-768x1085.jpg 768w, images/1.-725x1024.jpg 725w, images/1.-1240x1752.jpg 1240w, images/1.-1220x1724.jpg 1220w, images/1.-915x1293.jpg 915w, images/1.-600x848.jpg 600w, images/1.-393x555.jpg 393w, images/1.-290x410.jpg 290w" sizes="(max-width: 2480px) 100vw, 2480px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-98f864c" data-id="98f864c" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-9b94a3a rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="9b94a3a" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Uticaj organske poljoprivrede na zaštitu životne sredine, biodiverzitet, očuvanje genetičkih resursa, klimatske promene i kvalitet zemljišta</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="2480" height="3508" src="images/2.jpg" class="img-responsive aligncenter" alt="" srcset="images/2.jpg 2480w, images/2-212x300.jpg 212w, images/2-768x1086.jpg 768w, images/2-724x1024.jpg 724w, images/2-1240x1754.jpg 1240w, images/2-1220x1726.jpg 1220w, images/2-915x1294.jpg 915w, images/2-600x849.jpg 600w, images/2-393x556.jpg 393w, images/2-290x410.jpg 290w" sizes="(max-width: 2480px) 100vw, 2480px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-789e4ed" data-id="789e4ed" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-cca65eb rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="cca65eb" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Vodič za organsku proizvodnju kupine, ribizle i borovnice</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="2480" height="3508" src="images/3-1.jpg" class="img-responsive aligncenter" alt="" srcset="images/3-1.jpg 2480w, images/3-1-212x300.jpg 212w, images/3-1-768x1086.jpg 768w, images/3-1-724x1024.jpg 724w, images/3-1-1240x1754.jpg 1240w, images/3-1-1220x1726.jpg 1220w, images/3-1-915x1294.jpg 915w, images/3-1-600x849.jpg 600w, images/3-1-393x556.jpg 393w, images/3-1-290x410.jpg 290w" sizes="(max-width: 2480px) 100vw, 2480px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-085ff9d" data-id="085ff9d" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-f72aa58 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="f72aa58" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Vodič za organsku proizvodnju jabuke</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="2480" height="3508" src="images/4-1.jpg" class="img-responsive aligncenter" alt="" srcset="images/4-1.jpg 2480w, images/4-1-212x300.jpg 212w, images/4-1-768x1086.jpg 768w, images/4-1-724x1024.jpg 724w, images/4-1-1240x1754.jpg 1240w, images/4-1-1220x1726.jpg 1220w, images/4-1-915x1294.jpg 915w, images/4-1-600x849.jpg 600w, images/4-1-393x556.jpg 393w, images/4-1-290x410.jpg 290w" sizes="(max-width: 2480px) 100vw, 2480px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-3c9e602 elementor-section-boxed elementor-section-height-default elementor-section-height-default default-style" data-id="3c9e602" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;rt_color_sets&quot;:&quot;default-style&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-70830f3" data-id="70830f3" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-e8ff1d6 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="e8ff1d6" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Vodič za organsku proizvodnju maline</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="2480" height="3508" src="images/5-1.jpg" class="img-responsive aligncenter" alt="" srcset="images/5-1.jpg 2480w, images/5-1-212x300.jpg 212w, images/5-1-768x1086.jpg 768w, images/5-1-724x1024.jpg 724w, images/5-1-1240x1754.jpg 1240w, images/5-1-1220x1726.jpg 1220w, images/5-1-915x1294.jpg 915w, images/5-1-600x849.jpg 600w, images/5-1-393x556.jpg 393w, images/5-1-290x410.jpg 290w" sizes="(max-width: 2480px) 100vw, 2480px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-6e93f0a" data-id="6e93f0a" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-df9a0ff rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="df9a0ff" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Kako ostvariti profit u organskoj proizvodnji?</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="2480" height="3272" src="images/7-3.jpg" class="img-responsive aligncenter" alt="" srcset="images/7-3.jpg 2480w, images/7-3-227x300.jpg 227w, images/7-3-768x1013.jpg 768w, images/7-3-776x1024.jpg 776w, images/7-3-1240x1636.jpg 1240w, images/7-3-1220x1610.jpg 1220w, images/7-3-915x1207.jpg 915w, images/7-3-600x792.jpg 600w, images/7-3-393x519.jpg 393w, images/7-3-290x383.jpg 290w" sizes="(max-width: 2480px) 100vw, 2480px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-fd8dd29" data-id="fd8dd29" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-6fac5a9 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="6fac5a9" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Suzbijanje korova u organskoj poljoprivredi</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="350" height="500" src="images/8.jpg" class="img-responsive aligncenter" alt="" srcset="images/8.jpg 350w, images/8-210x300.jpg 210w, images/8-175x250.jpg 175w, images/8-290x414.jpg 290w" sizes="(max-width: 350px) 100vw, 350px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-48ef2bb" data-id="48ef2bb" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-439f1cc rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="439f1cc" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Biološka zaštita biljaka i otporne sorte u organskoj poljoprivredi</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="857" src="images/9-1-600x857.jpg" class="img-responsive aligncenter" alt="" srcset="images/9-1-600x857.jpg 600w, images/9-1-600x857-210x300.jpg 210w, images/9-1-600x857-300x428.jpg 300w, images/9-1-600x857-393x561.jpg 393w, images/9-1-600x857-290x414.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-42ee709" data-id="42ee709" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-29aa225 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="29aa225" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Dozvoljena sredstva za zaštitu bilja u organskoj poljoprivredi</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="857" src="images/10-600x857.jpg" class="img-responsive aligncenter" alt="" srcset="images/10-600x857.jpg 600w, images/10-600x857-210x300.jpg 210w, images/10-600x857-300x428.jpg 300w, images/10-600x857-393x561.jpg 393w, images/10-600x857-290x414.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-9c89bf5 elementor-section-boxed elementor-section-height-default elementor-section-height-default default-style" data-id="9c89bf5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;rt_color_sets&quot;:&quot;default-style&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-a4440d9" data-id="a4440d9" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-676aa6b rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="676aa6b" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/KatalogSRB72px-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organska poljoprivreda u  Srbiji 2014</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="857" src="images/11-1-600x857.jpg" class="img-responsive aligncenter" alt="" srcset="images/11-1-600x857.jpg 600w, images/11-1-600x857-210x300.jpg 210w, images/11-1-600x857-300x428.jpg 300w, images/11-1-600x857-393x561.jpg 393w, images/11-1-600x857-290x414.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-0d4b4b9" data-id="0d4b4b9" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-4c68744 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="4c68744" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Vaš vodič kroz propise za organsku poljoprivredu u Srbiji</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="857" src="images/12-1-600x857.jpg" class="img-responsive aligncenter" alt="" srcset="images/12-1-600x857.jpg 600w, images/12-1-600x857-210x300.jpg 210w, images/12-1-600x857-300x428.jpg 300w, images/12-1-600x857-393x561.jpg 393w, images/12-1-600x857-290x414.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-55f3282" data-id="55f3282" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-4c0d12c rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="4c0d12c" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Kako do sertifikovanog organskog proizvoda?</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="871" src="images/14-600x871.jpg" class="img-responsive aligncenter" alt="" srcset="images/14-600x871.jpg 600w, images/14-600x871-207x300.jpg 207w, images/14-600x871-300x435.jpg 300w, images/14-600x871-393x571.jpg 393w, images/14-600x871-290x421.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-d170c6f" data-id="d170c6f" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-ec71c39 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="ec71c39" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organska proizvodnja heljde i alternativnih žita</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="827" src="images/15-1-600x827.jpg" class="img-responsive aligncenter" alt="" srcset="images/15-1-600x827.jpg 600w, images/15-1-600x827-218x300.jpg 218w, images/15-1-600x827-300x413.jpg 300w, images/15-1-600x827-393x542.jpg 393w, images/15-1-600x827-290x400.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-6e18a7e" data-id="6e18a7e" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-11f7b8e rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="11f7b8e" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/Organska-poljoprivreda-u-Srbiji-2013.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organska poljoprivreda u  Srbiji 2013</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="636" height="910" src="images/2019-01-29-10_52_59-Window.jpg" class="img-responsive aligncenter" alt="" srcset="images/2019-01-29-10_52_59-Window.jpg 636w, images/2019-01-29-10_52_59-Window-210x300.jpg 210w, images/2019-01-29-10_52_59-Window-318x455.jpg 318w, images/2019-01-29-10_52_59-Window-600x858.jpg 600w, images/2019-01-29-10_52_59-Window-290x415.jpg 290w" sizes="(max-width: 636px) 100vw, 636px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-6b8038f elementor-section-boxed elementor-section-height-default elementor-section-height-default default-style" data-id="6b8038f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;rt_color_sets&quot;:&quot;default-style&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-08f1287" data-id="08f1287" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-8ad8533 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="8ad8533" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/ORGANSKA-POLJOPRIVREDA-U-SRBIJI-2012-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organska poljoprivreda u  Srbiji 2012</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="848" src="images/16-1-600x848.jpg" class="img-responsive aligncenter" alt="" srcset="images/16-1-600x848.jpg 600w, images/16-1-600x848-212x300.jpg 212w, images/16-1-600x848-300x424.jpg 300w, images/16-1-600x848-393x555.jpg 393w, images/16-1-600x848-290x410.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-5787f89" data-id="5787f89" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-71a7346 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="71a7346" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Kako do sertifikovanog organskog proizvoda</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="854" src="images/18-600x854.jpg" class="img-responsive aligncenter" alt="" srcset="images/18-600x854.jpg 600w, images/18-600x854-211x300.jpg 211w, images/18-600x854-300x427.jpg 300w, images/18-600x854-393x559.jpg 393w, images/18-600x854-290x413.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-9340b56" data-id="9340b56" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-02aacfc rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="02aacfc" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Vodič za organsku proizvodnju višnje</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="857" src="images/19-2-600x857.jpg" class="img-responsive aligncenter" alt="" srcset="images/19-2-600x857.jpg 600w, images/19-2-600x857-210x300.jpg 210w, images/19-2-600x857-300x428.jpg 300w, images/19-2-600x857-393x561.jpg 393w, images/19-2-600x857-290x414.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-3c6aa95" data-id="3c6aa95" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-8d97f56 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="8d97f56" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Vodič za organsku proizvodnju maline</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="857" src="images/20-1-600x857.jpg" class="img-responsive aligncenter" alt="" srcset="images/20-1-600x857.jpg 600w, images/20-1-600x857-210x300.jpg 210w, images/20-1-600x857-300x428.jpg 300w, images/20-1-600x857-393x561.jpg 393w, images/20-1-600x857-290x414.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-55fa55c" data-id="55fa55c" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-b87638c rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="b87638c" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Vodič za organsku proizvodnju jagode</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="850" src="images/21-1-600x850.jpg" class="img-responsive aligncenter" alt="" srcset="images/21-1-600x850.jpg 600w, images/21-1-600x850-212x300.jpg 212w, images/21-1-600x850-300x425.jpg 300w, images/21-1-600x850-393x557.jpg 393w, images/21-1-600x850-290x411.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-2617c00 elementor-section-boxed elementor-section-height-default elementor-section-height-default default-style" data-id="2617c00" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;rt_color_sets&quot;:&quot;default-style&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-b496dd7" data-id="b496dd7" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-8eb04a3 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="8eb04a3" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Vodič za organsku proizvodnju jabuke</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="849" src="images/22-1-600x849.jpg" class="img-responsive aligncenter" alt="" srcset="images/22-1-600x849.jpg 600w, images/22-1-600x849-212x300.jpg 212w, images/22-1-600x849-300x424.jpg 300w, images/22-1-600x849-393x556.jpg 393w, images/22-1-600x849-290x410.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-038dee7" data-id="038dee7" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-498ed09 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="498ed09" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/Knjiga-preporuka-Nacionalnog-konventa-o-EU-2015-web-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Knjiga preporuka Nacionalnog konventa o EU 2015</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="643" height="915" src="images/Knjiga-preporuka-Nacionalnog-konventa-o-EU-2015-web.jpg" class="img-responsive aligncenter" alt="" srcset="images/Knjiga-preporuka-Nacionalnog-konventa-o-EU-2015-web.jpg 643w, images/Knjiga-preporuka-Nacionalnog-konventa-o-EU-2015-web-211x300.jpg 211w, images/Knjiga-preporuka-Nacionalnog-konventa-o-EU-2015-web-321x457.jpg 321w, images/Knjiga-preporuka-Nacionalnog-konventa-o-EU-2015-web-600x854.jpg 600w, images/Knjiga-preporuka-Nacionalnog-konventa-o-EU-2015-web-290x413.jpg 290w" sizes="(max-width: 643px) 100vw, 643px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-a72dca2" data-id="a72dca2" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-493a620 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="493a620" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/Organska-poljoprivreda-u-Srbiji-2017-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organska poljoprivreda u  Srbiji 2017</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="2480" height="3508" src="images/6-1.jpg" class="img-responsive aligncenter" alt="" srcset="images/6-1.jpg 2480w, images/6-1-212x300.jpg 212w, images/6-1-768x1086.jpg 768w, images/6-1-724x1024.jpg 724w, images/6-1-1240x1754.jpg 1240w, images/6-1-1220x1726.jpg 1220w, images/6-1-915x1294.jpg 915w, images/6-1-600x849.jpg 600w, images/6-1-393x556.jpg 393w, images/6-1-290x410.jpg 290w" sizes="(max-width: 2480px) 100vw, 2480px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-270d343" data-id="270d343" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-13a7e4e rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="13a7e4e" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/Organic-Agriculture-in-Serbia-At-a-glance-2017-1.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organic agriculture in Serbia at a glance 2017</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="1460" height="2048" src="images/6-1.Organic-Agriculture-in-Serbia-At-a-glance-2017..jpg" class="img-responsive aligncenter" alt="" srcset="images/6-1.Organic-Agriculture-in-Serbia-At-a-glance-2017..jpg 1460w, images/6-1.Organic-Agriculture-in-Serbia-At-a-glance-2017.-214x300.jpg 214w, images/6-1.Organic-Agriculture-in-Serbia-At-a-glance-2017.-768x1077.jpg 768w, images/6-1.Organic-Agriculture-in-Serbia-At-a-glance-2017.-730x1024.jpg 730w, images/6-1.Organic-Agriculture-in-Serbia-At-a-glance-2017.-1251x1755.jpg 1251w, images/6-1.Organic-Agriculture-in-Serbia-At-a-glance-2017.-1220x1711.jpg 1220w, images/6-1.Organic-Agriculture-in-Serbia-At-a-glance-2017.-915x1283.jpg 915w, images/6-1.Organic-Agriculture-in-Serbia-At-a-glance-2017.-600x841.jpg 600w, images/6-1.Organic-Agriculture-in-Serbia-At-a-glance-2017.-290x407.jpg 290w" sizes="(max-width: 1460px) 100vw, 1460px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-9f045e8" data-id="9f045e8" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-4cfbb99 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="4cfbb99" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/Organic-Agriculture-in-Serbia-At-a-Glance-2014.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organic agriculture in Serbia at a glance 2014</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="1448" height="2048" src="images/11-1.Organic-agriculture-In-Serbia-at-aglance-2014.jpg" class="img-responsive aligncenter" alt="" srcset="images/11-1.Organic-agriculture-In-Serbia-at-aglance-2014.jpg 1448w, images/11-1.Organic-agriculture-In-Serbia-at-aglance-2014-212x300.jpg 212w, images/11-1.Organic-agriculture-In-Serbia-at-aglance-2014-768x1086.jpg 768w, images/11-1.Organic-agriculture-In-Serbia-at-aglance-2014-724x1024.jpg 724w, images/11-1.Organic-agriculture-In-Serbia-at-aglance-2014-1241x1755.jpg 1241w, images/11-1.Organic-agriculture-In-Serbia-at-aglance-2014-1220x1725.jpg 1220w, images/11-1.Organic-agriculture-In-Serbia-at-aglance-2014-915x1294.jpg 915w, images/11-1.Organic-agriculture-In-Serbia-at-aglance-2014-600x848.jpg 600w, images/11-1.Organic-agriculture-In-Serbia-at-aglance-2014-290x410.jpg 290w" sizes="(max-width: 1448px) 100vw, 1448px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-f2e76d4 elementor-section-boxed elementor-section-height-default elementor-section-height-default default-style" data-id="f2e76d4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;rt_color_sets&quot;:&quot;default-style&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-f35e9db" data-id="f35e9db" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-1e230d1 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="1e230d1" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organic agriculture in Serbia at a glance 2013</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="1455" height="2048" src="images/13-1.Organic-Agriculture-in-Serbia-at-a-glance-2013-engl-1.jpg" class="img-responsive aligncenter" alt="" srcset="images/13-1.Organic-Agriculture-in-Serbia-at-a-glance-2013-engl-1.jpg 1455w, images/13-1.Organic-Agriculture-in-Serbia-at-a-glance-2013-engl-1-213x300.jpg 213w, images/13-1.Organic-Agriculture-in-Serbia-at-a-glance-2013-engl-1-768x1081.jpg 768w, images/13-1.Organic-Agriculture-in-Serbia-at-a-glance-2013-engl-1-727x1024.jpg 727w, images/13-1.Organic-Agriculture-in-Serbia-at-a-glance-2013-engl-1-1244x1751.jpg 1244w, images/13-1.Organic-Agriculture-in-Serbia-at-a-glance-2013-engl-1-1220x1718.jpg 1220w, images/13-1.Organic-Agriculture-in-Serbia-at-a-glance-2013-engl-1-915x1288.jpg 915w, images/13-1.Organic-Agriculture-in-Serbia-at-a-glance-2013-engl-1-600x845.jpg 600w, images/13-1.Organic-Agriculture-in-Serbia-at-a-glance-2013-engl-1-290x408.jpg 290w" sizes="(max-width: 1455px) 100vw, 1455px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-782dcd8" data-id="782dcd8" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-46620c0 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="46620c0" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/ORGANIC_AGRICULTURE_IN_SERBIA_2012-1.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organic agriculture In Serbia at a glance 2012</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="600" height="851" src="images/ORGANIC_AGRICULTURE_IN_SERBIA_2012-1-1.jpg" class="img-responsive aligncenter" alt="" srcset="images/ORGANIC_AGRICULTURE_IN_SERBIA_2012-1-1.jpg 600w, images/ORGANIC_AGRICULTURE_IN_SERBIA_2012-1-1-212x300.jpg 212w, images/ORGANIC_AGRICULTURE_IN_SERBIA_2012-1-1-300x425.jpg 300w, images/ORGANIC_AGRICULTURE_IN_SERBIA_2012-1-1-290x411.jpg 290w" sizes="(max-width: 600px) 100vw, 600px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-9470900" data-id="9470900" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-ec2c77b rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="ec2c77b" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/Organic_Agriculture_in_Serbia-2011-1.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">Organic Agriculture in Serbia 2011</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="576" height="818" src="images/Organic_Agriculture_in_Serbia-2011.jpg" class="img-responsive aligncenter" alt="" srcset="images/Organic_Agriculture_in_Serbia-2011.jpg 576w, images/Organic_Agriculture_in_Serbia-2011-211x300.jpg 211w, images/Organic_Agriculture_in_Serbia-2011-288x409.jpg 288w, images/Organic_Agriculture_in_Serbia-2011-290x412.jpg 290w" sizes="(max-width: 576px) 100vw, 576px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-e14b27e" data-id="e14b27e" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-83d437f rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="83d437f" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P01EN-Organic-Agriculture-Courses-Accreditation-Criteria-and-Guideliness-GCPSRB001HUN-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P01EN-Organic-Agriculture-Courses-Accreditation-Criteria-and-Guideliness-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P01EN-Organic-Agriculture-Courses-Accreditation-Criteria-and-Guideliness-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P01EN-Organic-Agriculture-Courses-Accreditation-Criteria-and-Guideliness-GCPSRB001HUN-212x300.jpg 212w, images/P01EN-Organic-Agriculture-Courses-Accreditation-Criteria-and-Guideliness-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-add66f2" data-id="add66f2" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-dcdb397 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="dcdb397" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P01SR-Akreditacija-nastavnih-programa-iz-OP-kriterijumi-i-smernice-GCPSRB001HUN-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P01SR-Akreditacija-nastavnih-programa-iz-OP-kriterijumi-i-smernice-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P01SR-Akreditacija-nastavnih-programa-iz-OP-kriterijumi-i-smernice-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P01SR-Akreditacija-nastavnih-programa-iz-OP-kriterijumi-i-smernice-GCPSRB001HUN-212x300.jpg 212w, images/P01SR-Akreditacija-nastavnih-programa-iz-OP-kriterijumi-i-smernice-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-f0c4bef elementor-section-boxed elementor-section-height-default elementor-section-height-default default-style" data-id="f0c4bef" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;rt_color_sets&quot;:&quot;default-style&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-b884d5b" data-id="b884d5b" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-6c93e83 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="6c93e83" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P02EN-General-Communication-Concept-for-OA-in-Serbia-GCPSRB001HUN-1.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P02EN-General-Communication-Concept-for-OA-in-Serbia-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P02EN-General-Communication-Concept-for-OA-in-Serbia-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P02EN-General-Communication-Concept-for-OA-in-Serbia-GCPSRB001HUN-212x300.jpg 212w, images/P02EN-General-Communication-Concept-for-OA-in-Serbia-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-b766505" data-id="b766505" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-24dbb4d rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="24dbb4d" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P02SR-Generalni-komunikacijski-koncept-za-OP-GCPSRB001HUN-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P02SR-Generalni-komunikacijski-koncept-za-OP-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P02SR-Generalni-komunikacijski-koncept-za-OP-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P02SR-Generalni-komunikacijski-koncept-za-OP-GCPSRB001HUN-212x300.jpg 212w, images/P02SR-Generalni-komunikacijski-koncept-za-OP-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-5f71e81" data-id="5f71e81" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-e2c4bce rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="e2c4bce" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P03EN-Business-Development-Services-Guide-GCPSRB001HUN-1.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P03EN-Business-Development-Services-Guide-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P03EN-Business-Development-Services-Guide-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P03EN-Business-Development-Services-Guide-GCPSRB001HUN-212x300.jpg 212w, images/P03EN-Business-Development-Services-Guide-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-1ecca39" data-id="1ecca39" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-8b6c866 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="8b6c866" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P03SR-Vodič-za-usluge-poslovnog-razvoja-GCPSRB001HUN-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P03SR-Vodič-za-usluge-poslovnog-razvoja-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P03SR-Vodi%C4%8D-za-usluge-poslovnog-razvoja-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P03SR-Vodi%C4%8D-za-usluge-poslovnog-razvoja-GCPSRB001HUN-212x300.jpg 212w, images/P03SR-Vodi%C4%8D-za-usluge-poslovnog-razvoja-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-fb0d31c" data-id="fb0d31c" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-02859b2 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="02859b2" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P04EN-Organic-Sector-Linkage-Opportunities-Guide-GCPSRB001HUN-1.jpg" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P04EN-Organic-Sector-Linkage-Opportunities-Guide-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P04EN-Organic-Sector-Linkage-Opportunities-Guide-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P04EN-Organic-Sector-Linkage-Opportunities-Guide-GCPSRB001HUN-212x300.jpg 212w, images/P04EN-Organic-Sector-Linkage-Opportunities-Guide-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-34ce532 elementor-section-boxed elementor-section-height-default elementor-section-height-default default-style" data-id="34ce532" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;rt_color_sets&quot;:&quot;default-style&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-4d9ae7f" data-id="4d9ae7f" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-0d6385e rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="0d6385e" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P04SR-Vodič-za-povezivanje-učesnika-u-organskom-sektoru-GCPSRB001HUN-1.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P04SR-Vodič-za-povezivanje-učesnika-u-organskom-sektoru-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P04SR-Vodi%C4%8D-za-povezivanje-u%C4%8Desnika-u-organskom-sektoru-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P04SR-Vodi%C4%8D-za-povezivanje-u%C4%8Desnika-u-organskom-sektoru-GCPSRB001HUN-212x300.jpg 212w, images/P04SR-Vodi%C4%8D-za-povezivanje-u%C4%8Desnika-u-organskom-sektoru-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-bcc206a" data-id="bcc206a" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-a3e287b rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="a3e287b" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P05EN-Farmer-Field-and-Farm-Business-Schools-Manual-GCPSRB001HUN-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P05EN-Farmer-Field-and-Farm-Business-Schools-Manual-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P05EN-Farmer-Field-and-Farm-Business-Schools-Manual-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P05EN-Farmer-Field-and-Farm-Business-Schools-Manual-GCPSRB001HUN-212x300.jpg 212w, images/P05EN-Farmer-Field-and-Farm-Business-Schools-Manual-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-bde329b" data-id="bde329b" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-de907b8 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="de907b8" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P05SR-Otvorene-i-Poslovne-škole-za-poljoprivredne-proizvođače-GCPSRB001HUN-1.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P05SR-Otvorene-i-Poslovne-škole-za-poljoprivredne-proizvođače-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P05SR-Otvorene-i-Poslovne-%C5%A1kole-za-poljoprivredne-proizvo%C4%91a%C4%8De-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P05SR-Otvorene-i-Poslovne-%C5%A1kole-za-poljoprivredne-proizvo%C4%91a%C4%8De-GCPSRB001HUN-212x300.jpg 212w, images/P05SR-Otvorene-i-Poslovne-%C5%A1kole-za-poljoprivredne-proizvo%C4%91a%C4%8De-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-4ec6bda" data-id="4ec6bda" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-215a3c8 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="215a3c8" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P06EN-Organic-Agriculture-Courses-Exercises-Handbook-for-Teachers-GCPSRB001HUN-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P06EN-Organic-Agriculture-Courses-Exercises-Handbook-for-Teachers-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P06EN-Organic-Agriculture-Courses-Exercises-Handbook-for-Teachers-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P06EN-Organic-Agriculture-Courses-Exercises-Handbook-for-Teachers-GCPSRB001HUN-212x300.jpg 212w, images/P06EN-Organic-Agriculture-Courses-Exercises-Handbook-for-Teachers-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-7b8d334" data-id="7b8d334" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-9152e7f rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="9152e7f" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P06SR-Vežbe-iz-organske-poljoprivrede-Priručnik-za-nastavnike-SPŠ-GCPSRB001HUN-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P06SR-Vežbe-iz-organske-poljoprivrede-Priručnik-za-nastavnike-SPŠ-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P06SR-Ve%C5%BEbe-iz-organske-poljoprivrede-Priru%C4%8Dnik-za-nastavnike-SP%C5%A0-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P06SR-Ve%C5%BEbe-iz-organske-poljoprivrede-Priru%C4%8Dnik-za-nastavnike-SP%C5%A0-GCPSRB001HUN-212x300.jpg 212w, images/P06SR-Ve%C5%BEbe-iz-organske-poljoprivrede-Priru%C4%8Dnik-za-nastavnike-SP%C5%A0-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-eefca42 elementor-section-boxed elementor-section-height-default elementor-section-height-default default-style" data-id="eefca42" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;rt_color_sets&quot;:&quot;default-style&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-46a26fd" data-id="46a26fd" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-5050217 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="5050217" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P07EN-Assessment-of-Capacity-Develop.-for-the-Region-Specific-Organic-Products-GCPSRB001HUN-1.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P07EN-Assessment-of-Capacity-Develop.-for-the-Region-Specific-Organic-Products-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P07EN-Assessment-of-Capacity-Develop.-for-the-Region-Specific-Organic-Products-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P07EN-Assessment-of-Capacity-Develop.-for-the-Region-Specific-Organic-Products-GCPSRB001HUN-212x300.jpg 212w, images/P07EN-Assessment-of-Capacity-Develop.-for-the-Region-Specific-Organic-Products-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-ec1ba73" data-id="ec1ba73" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-314eb53 rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="314eb53" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P07SR-Procena-izgradnje-kapaciteta-za-regionalne-specificne-organske-proizvode-u-Srbiji-GCPSRB001HUN-1.pdf" title=""></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P07SR-Procena-izgradnje-kapaciteta-za-regionalne-specificne-organske-proizvode-u-Srbiji-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P07SR-Procena-izgradnje-kapaciteta-za-regionalne-specificne-organske-proizvode-u-Srbiji-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P07SR-Procena-izgradnje-kapaciteta-za-regionalne-specificne-organske-proizvode-u-Srbiji-GCPSRB001HUN-212x300.jpg 212w, images/P07SR-Procena-izgradnje-kapaciteta-za-regionalne-specificne-organske-proizvode-u-Srbiji-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-ff4ce82" data-id="ff4ce82" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-031c01b rt-image-box-pos-top elementor-widget elementor-widget-rt-image-box" data-id="031c01b" data-element_type="widget" data-widget_type="rt-image-box.default">
+<div class="elementor-widget-container">
+<div class="rt-image-box row align-items-start">
+<a class="rt-image-box-link" href="https://serbiaorganica.site/wp-content/uploads/2019/01/P08EN-Value-Chain-Analysis-of-Region-Specific-Organic-Products-in-Serbia-GCPSRB001HUN-1.pdf" title="" target="_self"></a>
+<div class="rt-image-box-content col   col-12">
+<div class="rt-heading-wrapper">
+<h6 class="rt-heading">P08EN-Value-Chain-Analysis-of-Region-Specific-Organic-Products-in-Serbia-GCPSRB001HUN</h6>
+</div>
+</div>
+<figure class="col   col-12">
+<img width="212" height="300" src="images/P08EN-Value-Chain-Analysis-of-Region-Specific-Organic-Products-in-Serbia-GCPSRB001HUN-212x300.jpg" class="img-responsive aligncenter" alt="" srcset="images/P08EN-Value-Chain-Analysis-of-Region-Specific-Organic-Products-in-Serbia-GCPSRB001HUN-212x300.jpg 212w, images/P08EN-Value-Chain-Analysis-of-Region-Specific-Organic-Products-in-Serbia-GCPSRB001HUN-212x300-106x150.jpg 106w" sizes="(max-width: 212px) 100vw, 212px">
+</figure>
+</div>		</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-694f1eb" data-id="694f1eb" data-element_type="column">
+<div class="elementor-column-wrap">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-ec35e01" data-id="ec35e01" data-element_type="column">
+<div class="elementor-column-wrap">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+ 
+</div><!-- / end #main-content -->
+<!-- footer -->
+<footer id="footer" class="footer">
+<div class="footer-contents"><section class="footer-widgets content-row footer footer_contents fullwidth"><div class="content-row-wrapper row default">
+<div id="footer-column-1" class="col col-12 col-lg-5 col-sm-12 featured-col widgets_holder">
+<div class="column-inner">
+<div id="media_image-1" class="footer_widget widget widget_media_image"><img width="300" height="107" src="images/srb.png" class="image wp-image-9487  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" srcset="images/srb.png 300w, images/srb-150x53.png 150w, images/srb-290x103.png 290w" sizes="(max-width: 300px) 100vw, 300px"></div><div id="text-1" class="footer_widget widget widget_text">			<div class="textwidget"><p>“Serbia Organika” je nezavisna, nevladina i neprofitna građanska organizacija, osnovana na inicijativu zainteresovanih strana iz organskog sektora.</p>
+</div>
+</div><div id="custom_html-1" class="widget_text footer_widget widget widget_custom_html"><h5>Prijavite se na naš newsletter</h5><div class="textwidget custom-html-widget"><div role="form" class="wpcf7" id="wpcf7-f5051-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/o-nama/literatura/#wpcf7-f5051-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="5051">
+<input type="hidden" name="_wpcf7_version" value="5.1.3">
+<input type="hidden" name="_wpcf7_locale" value="en_US">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5051-o1">
+<input type="hidden" name="_wpcf7_container_post" value="0">
+</div>
+<div class="subscription-form inline-2">
+<div><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Unesite vašu email adresu"></span><span class="icon-submit icon-right-open-1 wpcf7-submit"></span></div>
+</div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div></div>		</div>
+</div>
+<div id="footer-column-2" class="col col-12 col-lg-3 col-sm-4 widgets_holder">
+<div class="column-inner">
+<div id="contact_info-1" class="footer_widget widget widget_contact_info"><h5>KONTAKT</h5><div class="with_icons style-1"><div><span class="icon ui-icon-address"></span><div>Velimira Bate Živojinovića 19<br>11000 Beograd, Republika Srbija</div></div><div><span class="icon ui-icon-phone"></span><div>0800 812 146</div></div><div><span class="icon ui-icon-mobile-1"></span><div>0800 812 147</div></div><div><span class="icon ui-icon-print-1"></span><div>0800 812 146</div></div><div><span class="icon ui-icon-mail"></span><div><a href="mailto:office@serbiaorganica.site">office@serbiaorganica.site</a></div></div></div></div><div id="rtframework_text-2" class="footer_widget widget widget-naturalife-text">Zabranjeno je preuzimati sadržaje sa sajta bez prethodnog odobrenja Serbia Organike.</div><div id="custom_html-4" class="widget_text footer_widget widget widget_custom_html"><div class="textwidget custom-html-widget"></div></div>		</div>
+</div>
+<div id="footer-column-3" class="col col-12 col-lg-3 col-sm-4 widgets_holder">
+<div class="column-inner">
+<div id="latest_posts_2-1" class="footer_widget widget widget_latest_posts"><h5>POSLEDNJE VESTI</h5>
+<div>
+<img src="images/Vodi%C4%8D-novi-propisi-60x60.png" alt="" class="post-thumb" srcset="images/Vodi%C4%8D-novi-propisi-120x120.png 1.3x" width="60" height="60">
+<span class="meta">20 decembar, 2023</span>
+<a class="title" href="https://serbiaorganica.site/izdat-prirucnik-o-sredstvima-za-zastitu-i-ishranu-bilja-u-organskoj-proizvodnji/" title="Izdat Priručnik o sredstvima za zaštitu i ishranu bilja u organskoj proizvodnji" rel="bookmark">Izdat Priručnik o sredstvima za zaštitu i ishranu bilja u organskoj proizvodnji</a>						
+</div>
+<div>
+<img src="images/IMG-95a7e901f3c20ed0db3f420dfaaaa18c-V-60x60.jpg" alt="" class="post-thumb" srcset="images/IMG-95a7e901f3c20ed0db3f420dfaaaa18c-V-120x120.jpg 1.3x" width="60" height="60">
+<span class="meta">26 oktobar, 2023</span>
+<a class="title" href="https://serbiaorganica.site/poseta-organskom-imanju-joksimovic-selo-rajkovic-mionica-4-11-2023/" title="Poseta organskom imanju Joksimović- selo Rajković, Mionica, 4.11.2023" rel="bookmark">Poseta organskom imanju Joksimović- selo Rajković, Mionica, 4.11.2023</a>						
+</div>
+<div>
+<img src="images/viber_slika_2023-10-16_13-11-27-668-60x60.jpg" alt="" class="post-thumb" srcset="images/viber_slika_2023-10-16_13-11-27-668-120x120.jpg 1.3x" width="60" height="60">
+<span class="meta">16 oktobar, 2023</span>
+<a class="title" href="https://serbiaorganica.site/svetski-dan-hrane-16-oktobar/" title="Svetski dan hrane – 16. oktobar" rel="bookmark">Svetski dan hrane – 16. oktobar</a>						
+</div>
+</div><div id="custom_html-5" class="widget_text footer_widget widget widget_custom_html"><div class="textwidget custom-html-widget"></div></div>		</div>
+</div>
+<div id="footer-column-4" class="col col-12 col-lg-12 col-sm-12 widgets_holder">
+<div class="column-inner">
+<div id="text-3" class="footer_widget widget widget_text">			<div class="textwidget"><hr>
+<p><img class="wp-image-6997 alignleft" src="images/usaid-e1548342895583.png" alt="" width="185" height="52"></p>
+<p>Izrada ovog websajta omogućena je uz podršku američkog naroda putem Američke agencije za međunarodni razvoj (USAID). Sadržaj websajta je isključivo odgovornost Serbia Organike i ne predstavlja nužno stavove USAID-a ili Vlade Sjedinjenih Američkih Država.</p>
+</div>
+</div>		</div>
+</div>
+</div></section>
+<div class="content-row footer_contents footer-info-bar fullwidth"><div class="content-row-wrapper d-lg-flex align-items-center default text-sm-center default"><div class="copyright">Copyright © Serbia Organica - 2019</div><div class="footer-navigation-container"><ul id="footer-navigation" class="menu"><li id="menu-item-6147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6147"><a href="http://excentric-design.net/">Design by eXcentric studio</a></li>
+</ul></div><div class="footer-info-right"><ul class="social_media inline-list"><li class="facebook"><a class="ui-icon-facebook" href="#" title="Facebook"><span>Facebook</span></a></li><li class="instagram"><a class="ui-icon-instagram" href="#" title="Instagram"><span>Instagram</span></a></li><li class="twitter"><a class="ui-icon-twitter" href="#" title="Twitter"><span>Twitter</span></a></li></ul></div></div></div></div></footer><!-- / end #footer -->  
+</div><!-- / end #container --> 
+<div class="rt-popup rt-popup-search">
+<div class="rt-popup-content-wrapper d-flex align-items-center">
+<button class="rt-popup-close ui-icon-exit"></button>
+<div class="rt-popup-content default-style">
+<form method="get" action="https://serbiaorganica.site//" class="wp-search-form rt_form">
+<ul>
+<li><input type="text" class="search showtextback" placeholder="Unesite pojam koji tražite" name="s"><span class="search-icon ui-icon-search-1"></span></li>
+</ul>
+<input type="hidden" name="lang" value="sr">			</form>
+</div>
+</div>
+</div>	
+<div class="rt-popup rt-popup-share">
+<div class="rt-popup-content-wrapper d-flex align-items-center">
+<button class="rt-popup-close ui-icon-exit"></button>
+<div class="rt-popup-content default-style">
+<div class="naturalife-share-content">				
+<ul></ul>
+</div>
+</div>
+</div>
+</div>
+<div class="go-to-top ui-icon-angle-up"></div><div class="naturalife-panel-holder">
+<div class="naturalife-panel-wrapper">
+<div class="naturalife-panel-contents">
+<nav class="naturalife-language-switcher">
+<ul class="menu">
+<li class="menu-item-has-children">
+<a href="#" title="Switch the language">
+<span class="rt-flag" style="background-image:url('images/sr.png')"></span>
+<span class="rt-language-name" lang="sr_RS">srpski</span>
+</a>
+<ul>
+<li>
+<a href="https://serbiaorganica.site/o-nama/literatura/" title="srpski"><span class="rt-flag" style="background-image:url(images/sr.png)"></span><span lang="sr_RS">srpski</span></a>
+</li>
+<li>
+<a href="https://serbiaorganica.site/en/about-us/our-library/" title="English"><span class="rt-flag" style="background-image:url(images/en.png)"></span><span lang="en_US">English</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+<nav class="mobile-nav">
+<ul id="mobile-navigation" class="menu"><li id="mobile-menu-item-6980" data-depth="0" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children"><a href="https://serbiaorganica.site/o-nama/"><span>O nama</span></a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-7208" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/o-nama/nasa-izdanja/">Naša izdanja</a> </li>
+</ul>
+</li>
+<li id="mobile-menu-item-6640" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Organska proizvodnja</span></a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-7017" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sta-je-organska-proizvodnja-i-koji-su-njeni-principi/">Šta je organska proizvodnja i koji su njeni principi?</a> </li>
+<li id="mobile-menu-item-7049" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/organska-proizvodnja-u-srbiji/">Organska proizvodnja u Srbiji</a> </li>
+<li id="mobile-menu-item-6917" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/organska-poljoprivreda/">Organska poljoprivreda</a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-6918" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/biljna/">Biljna proizvodnja</a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-6921" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/reproduktivni-materijal/">Reproduktivni materijal</a> </li>
+<li id="mobile-menu-item-6922" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/zastita-bilja/">Zaštita bilja</a> </li>
+<li id="mobile-menu-item-6923" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/ishrana-bilja-i-oplemenjvanje-zemlista-djubrenje/">Ishrana bilja i oplemenjvanje zemlišta/đubrenje</a> </li>
+<li id="mobile-menu-item-6924" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/obrada-zemljista/">Obrada zemljišta</a> </li>
+<li id="mobile-menu-item-6925" data-depth="3" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/mehanizacija/">Mehanizacija</a> </li>
+</ul>
+</li>
+<li id="mobile-menu-item-6919" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/stocarska/">Stočarska proizvodnja</a> </li>
+<li id="mobile-menu-item-6920" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sakupljanje-samoniklog-lekovitog-bilja-i-sumskih-plodova/">Sakupljanje samoniklog lekovitog bilja i šumskih plodova</a> </li>
+</ul>
+</li>
+<li id="mobile-menu-item-6948" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/prerada-organskih-proizvoda/">Prerada organskih proizvoda</a> </li>
+</ul>
+</li>
+<li id="mobile-menu-item-6643" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Propisi</span></a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-6926" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/domaci-propisi/">Domaći propisi</a> </li>
+<li id="mobile-menu-item-6927" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/strani-propisi/">Strani propisi</a> </li>
+<li id="mobile-menu-item-6928" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/nadlezne-institucije/">Nadležne institucije</a> </li>
+</ul>
+</li>
+<li id="mobile-menu-item-6644" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Sertifikacija</span></a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-6929" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/sertifikacija-organske-proizvodnje/">Sertifikacija organske proizvodnje</a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-6930" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sertifikacija-organske-proizvodnje/sta-je-sertifikat/">Šta je sertifikat?</a> </li>
+<li id="mobile-menu-item-6931" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sertifikacija-organske-proizvodnje/zasto-sertifikat/">Zašto sertifikat</a> </li>
+</ul>
+</li>
+<li id="mobile-menu-item-6932" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/kako-do-sertifikata-u-organskoj-proizvodnji/">Kako do sertifikata u organskoj proizvodnji</a> </li>
+<li id="mobile-menu-item-6933" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/ko-sprovodi-kontrolu-i-setifikaciju/">Ko sprovodi kontrolu i setifikaciju</a> </li>
+</ul>
+</li>
+<li id="mobile-menu-item-6645" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Potrošači</span></a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-6934" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/sta-je-organski-proizvod/">Šta je organski proizvod</a> </li>
+<li id="mobile-menu-item-6935" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/prednost-organskih-proizvoda/">Prednost organskih proizvoda</a> </li>
+<li id="mobile-menu-item-6936" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/kako-prepoznati-organski-proizvod/">Kako prepoznati organski proizvod</a> </li>
+<li id="mobile-menu-item-6937" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/gde-se-mogu-kupiti-organski-proizvodi/">Gde se mogu kupiti organski proizvodi</a> </li>
+</ul>
+</li>
+<li id="mobile-menu-item-6646" data-depth="0" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Proizvođači</span></a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-6938" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/kako-postati-organski-proizvodjac-koraci/">Kako postati organski proizvođač- koraci</a> </li>
+<li id="mobile-menu-item-8734" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/obrasci/">Obrasci</a> </li>
+<li id="mobile-menu-item-6939" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/podsticajna-sredstva/">Podsticajna sredstva</a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-7492" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/podsticajna-sredstva/aktuelni-podsticaji/">Aktuelni podsticaji</a> </li>
+</ul>
+</li>
+<li id="mobile-menu-item-6940" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://serbiaorganica.site/trziste/">Tržište</a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-6941" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/domace/">Domaće tržište</a> </li>
+<li id="mobile-menu-item-6942" data-depth="2" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/strano/">Strano tržište</a> </li>
+</ul>
+</li>
+<li id="mobile-menu-item-6943" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/promet-organskih-proizvoda-u-srbiji/">Promet organskih proizvoda u Srbiji</a> </li>
+<li id="mobile-menu-item-6944" data-depth="1" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://serbiaorganica.site/inovacije-u-proizvodnji/">Inovacije u proizvodnji</a> </li>
+</ul>
+</li>
+<li id="mobile-menu-item-wpml-ls-21-sr" data-depth="0" class="menu-item wpml-ls-slot-21 wpml-ls-item wpml-ls-item-sr wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children"><a title="srpski" href="https://serbiaorganica.site/o-nama/literatura/"><span><img class="wpml-ls-flag" src="images/sr_1.png" alt="sr" title="srpski"><span class="wpml-ls-display">srpski</span></span></a> 
+<ul class="sub-menu">
+<li id="mobile-menu-item-wpml-ls-21-en" data-depth="1" class="menu-item wpml-ls-slot-21 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item"><a title="engleski" href="https://serbiaorganica.site/en/about-us/our-library/"><img class="wpml-ls-flag" src="images/en_1.png" alt="en" title="English"><span class="wpml-ls-display">engleski</span></a> </li>
+</ul>
+</li>
+</ul>    
+</nav>
+<div class="side-panel-widgets-desktop">
+<div id="media_image-2" class="sidebar-widget widget widget_media_image"><img width="200" height="152" src="images/logo-200x152.png" class="image wp-image-6633  attachment-rtframework_retina size-rtframework_retina" alt="" style="max-width: 100%; height: auto;" srcset="images/logo-200x152.png 200w, images/logo-300x229.png 300w, images/logo-393x300.png 393w, images/logo-290x221.png 290w, images/logo.png 400w, images/logo.png 1.3x" sizes="(max-width: 200px) 100vw, 200px"></div><div id="text-2" class="sidebar-widget widget widget_text">			<div class="textwidget"><p>“Serbia Organika” je nezavisna, nevladina i neprofitna građanska organizacija, osnovana na inicijativu zainteresovanih strana iz organskog sektora.</p>
+<h6>ADRESA</h6>
+<p>Velimira Bate Živojinovića 19<br>
+11000 Beograd<br>
+Republika Srbija</p>
+<h6>TELEFON</h6>
+<p>+381 (0 )800 812 146</p>
+<h6>EMAIL</h6>
+<p>office@serbiaorganica.site</p>
+</div>
+</div></div>
+<div class="side-panel-widgets-mobile">
+</div>
+<div class="side-panel-widgets-global">
+<div id="social_media_icons-2" class="sidebar-widget widget widget_social_media_icons"><div class="naturalife-social-media-widget">
+<ul class="social_media inline-list"><li class="facebook"><a class="ui-icon-facebook" href="#" title="Facebook"><span>Facebook</span></a></li><li class="instagram"><a class="ui-icon-instagram" href="#" title="Instagram"><span>Instagram</span></a></li><li class="twitter"><a class="ui-icon-twitter" href="#" title="Twitter"><span>Twitter</span></a></li></ul></div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="naturalife-panel-background"></div>
+<div class="naturalife-panel-close ui-icon-exit"></div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/serbiaorganica.site\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var rtframework_params = {"ajax_url":"https:\/\/serbiaorganica.site\/wp-admin\/admin-ajax.php?lang=sr","rttheme_template_dir":"https:\/\/serbiaorganica.site\/wp-content\/themes\/naturalife","popup_blocker_message":"Please disable your pop-up blocker and click the \"Open\" link again.","wpml_lang":"sr","theme_slug":"naturalife","home_url":"https:\/\/serbiaorganica.site"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/app-min.js"></script>
+<script type="text/javascript" src="js/wp-embed.min.js"></script>
+<script type="text/javascript" src="js/frontend-modules.min.js"></script>
+<script type="text/javascript" src="js/position.min.js"></script>
+<script type="text/javascript" src="js/dialog.min.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/share-link.min.js"></script>
+<script type="text/javascript">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Uve\u0107anje","share":"Share","playVideo":"Pusti video zapis","previous":"Previous","next":"Next","close":"Zatvori"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.13","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"https:\/\/serbiaorganica.site\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":9006,"title":"Literatura%20%E2%80%93%20Serbia%20Organica","excerpt":"","featuredImage":false}};
+</script>
+<script type="text/javascript" src="js/frontend.min.js"></script>
+
+<div style="left: -2.09146e+13px; position: absolute; top: 0px;">
+<p><a href="https://armyjeeps.net/vegasgg/">https://armyjeeps.net/vegasgg/</a></p>
+<p><a href="https://www.gas138gacor.com/">https://www.gas138gacor.com/</a></p>
+<p><a href="https://gkps.or.id/bimabet/">https://gkps.or.id/bimabet/</a></p>
+<p><a href="https://thaiexpress.co.uk/wp-content/megahoki88/">https://thaiexpress.co.uk/wp-content/megahoki88/</a></p>
+<p><a href="https://www.theclaphamnorth.co.uk/wp-content/kdslots777/">https://www.theclaphamnorth.co.uk/wp-content/kdslots777/</a></p>
+<p><a href="https://www.dragon77.id/">https://www.dragon77.id/</a></p>
+<p><a href="https://www.jakartacash.org/">https://www.jakartacash.org/</a></p>
+<p><a href="https://www.coin303.info/">https://www.coin303.info/</a></p>
+<p><a href="https://www.caspo777slot.com/">https://www.caspo777slot.com/</a></p>
+<p><a href="https://www.big77.id/">https://www.big77.id/</a></p>
+<p><a href="https://www.max77.id/">https://www.max77.id/</a></p>
+<p><a href="https://www.autospin88.org/">https://www.autospin88.org/</a></p>
+<p><a href="https://www.gopek178.net/">https://www.gopek178.net/</a></p>
+<p><a href="https://www.monsterbolaslot.com/">https://www.monsterbolaslot.com/</a></p>
+<p><a href="https://www.wajik777.id/">https://www.wajik777.id/</a></p>
+<p><a href="https://www.vegashoki88.info/">https://www.vegashoki88.info/</a></p>
+<p><a href="https://www.winslot88link.com/">https://www.winslot88link.com/</a></p>
+<p><a href="https://www.dolar138slot.org/">https://www.dolar138slot.org/</a></p>
+<p><a href="http://bigdewa.epizy.com/">http://bigdewa.epizy.com/</a></p>
+<p><a href="http://dunia777.epizy.com/">http://dunia777.epizy.com/</a></p>
+<p><a href="http://kencana88.epizy.com/">http://kencana88.epizy.com/</a></p>
+<p><a href="http://koko138.epizy.com/">http://koko138.epizy.com/</a></p>
+<p><a href="http://harmonibet.epizy.com/">http://harmonibet.epizy.com/</a></p>
+<p><a href="http://bolagg.epizy.com/">http://bolagg.epizy.com/</a></p>
+<p><a href="http://mayora88.epizy.com/">http://mayora88.epizy.com/</a></p>
+<p><a href="http://ligagaruda.epizy.com/">http://ligagaruda.epizy.com/</a></p>
+<p><a href="http://babe138.epizy.com/">http://babe138.epizy.com/</a></p>
+<p><a href="http://money138.epizy.com/">http://money138.epizy.com/</a></p>
+<p><a href="http://dog69.epizy.com/">http://dog69.epizy.com/</a></p>
+<p><a href="http://104.223.44.99/">http://104.223.44.99/</a></p>
+<p><a href="http://104.223.44.100/">http://104.223.44.100/</a></p>
+<p><a href="https://servimenaje.es/garuda999/">https://servimenaje.es/garuda999/</a></p>
+<p><a href="https://toto-slot.voenews.com.br/">https://toto-slot.voenews.com.br/</a></p>
+<p><a href="https://www.linkpragmaticdemo.com/">https://www.linkpragmaticdemo.com/</a></p>
+<p><a href="https://www.livecasinoonline.games/">https://www.livecasinoonline.games/</a></p>
+<p><a href="https://www.judibolaparlay.id/">https://www.judibolaparlay.id/</a></p>
+<p><a href="https://www.roletonline.org/">https://www.roletonline.org/</a></p>
+<p><a href="https://www.slot88rtp.net/">https://www.slot88rtp.net/</a></p>
+<p><a href="http://www.marinetimes.ie/batman138/">http://www.marinetimes.ie/batman138/</a></p>
+<p><a href="https://www.togeltotoslot.com/">https://www.togeltotoslot.com/</a></p>
+<p><a href="https://dphokathmandu.gov.np/">https://dphokathmandu.gov.np/</a></p>
+<p><a href="https://qldstrawberries.com.au/wp-content/brobet77/">https://qldstrawberries.com.au/wp-content/brobet77/</a></p>
+<p><a href="https://agendamentocadunico.olinda.pe.gov.br/wp-content/ajaib88/">https://agendamentocadunico.olinda.pe.gov.br/wp-content/ajaib88/</a></p>
+</div>
+</body></html><!-- WP Fastest Cache file was created in 3.0447850227356 seconds, on 18-01-24 20:40:24 --><!-- via php -->
